@@ -37,7 +37,7 @@ It is an **autonomous multi-agent system**.
 
 ---
 
-## 🧩 MVP Scope (Closed)
+## 🧩 MVP Scope
 
 The MVP intentionally runs **one complete episode**, executed end-to-end.
 
