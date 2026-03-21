@@ -12,7 +12,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "http://localhost:8000/episodes",
+        "url": "https://YOUR_VERCEL_URL/episodes",
         "options": {}
       },
       "id": "a1b2c3d4-0001-0001-0001-000000000002",
@@ -24,7 +24,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "=http://localhost:8000/episodes/{{ $('1 — Create Episode').item.json.episode_id }}/characters",
+        "url": "=https://YOUR_VERCEL_URL/episodes/{{ $('1 — Create Episode').item.json.episode_id }}/characters",
         "options": {}
       },
       "id": "a1b2c3d4-0001-0001-0001-000000000003",
@@ -36,7 +36,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "=http://localhost:8000/episodes/{{ $('1 — Create Episode').item.json.episode_id }}/posts",
+        "url": "=https://YOUR_VERCEL_URL/episodes/{{ $('1 — Create Episode').item.json.episode_id }}/posts",
         "options": {}
       },
       "id": "a1b2c3d4-0001-0001-0001-000000000004",
@@ -48,7 +48,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "=http://localhost:8000/episodes/{{ $('1 — Create Episode').item.json.episode_id }}/comments",
+        "url": "=https://YOUR_VERCEL_URL/episodes/{{ $('1 — Create Episode').item.json.episode_id }}/comments",
         "options": {}
       },
       "id": "a1b2c3d4-0001-0001-0001-000000000005",
@@ -60,7 +60,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "=http://localhost:8000/episodes/{{ $('1 — Create Episode').item.json.episode_id }}/votes",
+        "url": "=https://YOUR_VERCEL_URL/episodes/{{ $('1 — Create Episode').item.json.episode_id }}/votes",
         "options": {}
       },
       "id": "a1b2c3d4-0001-0001-0001-000000000006",
@@ -72,7 +72,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "=http://localhost:8000/episodes/{{ $('1 — Create Episode').item.json.episode_id }}/eliminate",
+        "url": "=https://YOUR_VERCEL_URL/episodes/{{ $('1 — Create Episode').item.json.episode_id }}/eliminate",
         "options": {}
       },
       "id": "a1b2c3d4-0001-0001-0001-000000000007",
@@ -84,7 +84,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "=http://localhost:8000/episodes/{{ $('1 — Create Episode').item.json.episode_id }}/finish",
+        "url": "=https://YOUR_VERCEL_URL/episodes/{{ $('1 — Create Episode').item.json.episode_id }}/finish",
         "options": {}
       },
       "id": "a1b2c3d4-0001-0001-0001-000000000008",
@@ -96,7 +96,7 @@
     {
       "parameters": {
         "method": "GET",
-        "url": "=http://localhost:8000/episodes/{{ $('1 — Create Episode').item.json.episode_id }}/report",
+        "url": "=https://YOUR_VERCEL_URL/episodes/{{ $('1 — Create Episode').item.json.episode_id }}/report",
         "options": {}
       },
       "id": "a1b2c3d4-0001-0001-0001-000000000009",
